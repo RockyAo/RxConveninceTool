@@ -16,6 +16,7 @@
 		5C78C1C11ED06EA400341223 /* RxConveninceToolUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C78C1C01ED06EA400341223 /* RxConveninceToolUITests.swift */; };
 		5C78C1D01ED0767200341223 /* Scheduler+Rx.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C78C1CF1ED0767200341223 /* Scheduler+Rx.swift */; };
 		5C78C1D21ED07B1A00341223 /* UINavigationController+Rx.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C78C1D11ED07B1A00341223 /* UINavigationController+Rx.swift */; };
+		5C78C1D41ED07CED00341223 /* MKMapView+Rx.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C78C1D31ED07CED00341223 /* MKMapView+Rx.swift */; };
 		745D0372BAAF9FC21B6DAEFC /* Pods_RxConveninceToolTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B8DB7A86F79B97BA12207419 /* Pods_RxConveninceToolTests.framework */; };
 		7BB4A0B438853DAF6788C078 /* Pods_RxConveninceToolUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7C854E306F77818EB5EE903 /* Pods_RxConveninceToolUITests.framework */; };
 		82F45F3B8B11D055043DC181 /* Pods_RxConveninceTool.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99E3A797027C04F604A432E2 /* Pods_RxConveninceTool.framework */; };
@@ -56,6 +57,7 @@
 		5C78C1C21ED06EA400341223 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5C78C1CF1ED0767200341223 /* Scheduler+Rx.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Scheduler+Rx.swift"; sourceTree = "<group>"; };
 		5C78C1D11ED07B1A00341223 /* UINavigationController+Rx.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UINavigationController+Rx.swift"; sourceTree = "<group>"; };
+		5C78C1D31ED07CED00341223 /* MKMapView+Rx.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "MKMapView+Rx.swift"; sourceTree = "<group>"; };
 		70BF64B3B64271D6483DCE08 /* Pods-RxConveninceToolUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxConveninceToolUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-RxConveninceToolUITests/Pods-RxConveninceToolUITests.release.xcconfig"; sourceTree = "<group>"; };
 		99E3A797027C04F604A432E2 /* Pods_RxConveninceTool.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RxConveninceTool.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A5300662C2811E53BDAF8F7C /* Pods-RxConveninceTool.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxConveninceTool.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RxConveninceTool/Pods-RxConveninceTool.debug.xcconfig"; sourceTree = "<group>"; };
@@ -175,6 +177,7 @@
 			children = (
 				5C78C1CF1ED0767200341223 /* Scheduler+Rx.swift */,
 				5C78C1D11ED07B1A00341223 /* UINavigationController+Rx.swift */,
+				5C78C1D31ED07CED00341223 /* MKMapView+Rx.swift */,
 			);
 			path = Extension;
 			sourceTree = "<group>";
@@ -467,6 +470,7 @@
 				5C78C1D21ED07B1A00341223 /* UINavigationController+Rx.swift in Sources */,
 				5C78C1A11ED06EA400341223 /* AppDelegate.swift in Sources */,
 				5C78C1D01ED0767200341223 /* Scheduler+Rx.swift in Sources */,
+				5C78C1D41ED07CED00341223 /* MKMapView+Rx.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
